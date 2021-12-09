@@ -1,9 +1,11 @@
 /* Layout */
 header {
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 35px;
+}
+
+.logo {
+  max-width: 200px;
 }
 
 nav {
@@ -38,24 +40,42 @@ label:hover {
 
 body {
   background-color: #eae7e7;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .cta_explore {
   background-color: #36868f;
+  padding: 5px 40px;
 }
 
 .cta_exhibitions {
   background-color: #db7fb1;
+  padding: 5px 29px;
 }
 
 .cta_events {
   background-color: #69d0db;
+  padding: 5px 44px;
 }
 
 .cta_visit {
   background-color: #dbcb53;
+  padding: 5px 50px;
 }
 
 .cta_getinvolved {
   background-color: #8f853d;
+  padding: 5px 24px;
+}
+
+footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
