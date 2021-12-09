@@ -1,0 +1,61 @@
+/* Layout */
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 87px;
+  background: #fff;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 18px 15px;
+}
+
+#hamburger_menu {
+  display: none;
+}
+
+#hamburger_menu:checked ~ nav {
+  display: block;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #eae7e7;
+}
+
+.cta_explore {
+  background-color: #36868f;
+}
+
+.cta_exhibitions {
+  background-color: #db7fb1;
+}
+
+.cta_events {
+  background-color: #69d0db;
+}
+
+.cta_visit {
+  background-color: #dbcb53;
+}
+
+.cta_getinvolved {
+  background-color: #8f853d;
+}
