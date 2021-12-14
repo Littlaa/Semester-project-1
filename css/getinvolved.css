@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding: 10px;
+}
+
+.get {
+  text-align: center;
+  background: #36868f;
+  margin: 20px;
+}
+
+.volunteer {
+  text-align: center;
+  background: #dbcb53;
+  margin: 20px;
+}
+
+.intern {
+  text-align: center;
+  background: #69d0db;
+  margin: 20px;
+}
