@@ -1,0 +1,14 @@
+.img_width {
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: left;
+  padding: 10px;
+}

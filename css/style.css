@@ -1,7 +1,16 @@
 /* Layout */
+body {
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 header {
-  background-color: #fff;
-  padding: 35px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .logo {
@@ -11,7 +20,7 @@ header {
 nav {
   display: none;
   position: fixed;
-  top: 87px;
+  top: 105px;
   background: #fff;
   z-index: 1000;
   right: 0px;
@@ -23,7 +32,7 @@ nav ul {
 
 nav li {
   display: block;
-  padding: 18px 15px;
+  padding: 10px 15px;
 }
 
 #hamburger_menu {
@@ -38,9 +47,8 @@ label:hover {
   cursor: pointer;
 }
 
-body {
-  background-color: #eae7e7;
-  margin: 0px;
+main {
+  background-color: #e2dfdf;
 }
 
 a {
@@ -74,8 +82,5 @@ a {
 }
 
 footer {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 10px;
 }

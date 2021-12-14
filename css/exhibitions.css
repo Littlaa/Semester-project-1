@@ -1,0 +1,38 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding: 5px;
+}
+
+.img_width {
+  width: 100%;
+}
+
+.cosmology {
+  background: #36868f;
+  margin: 20px;
+}
+
+.evolution {
+  background: #dbcb53;
+  margin: 20px;
+}
+
+.biology {
+  background: #69d0db;
+  margin: 20px;
+}
+
+.robotic {
+  background: #db7fb1;
+  margin: 20px;
+}
+
+.ecology {
+  background: #8f853d;
+  margin: 20px;
+}

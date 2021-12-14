@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 5px;
+}
+
+.location {
+  background: #36868f;
+  margin: 20px;
+  text-align: center;
+}
+
+.hours {
+  background: #69d0db;
+  margin: 20px;
+  text-align: center;
+}
+
+.access {
+  background: #8f853d;
+  margin: 20px;
+  text-align: center;
+}
+
+.access p {
+  text-align: left;
+  padding: 10px;
+}
+
+.admission {
+  background: #dbcb53;
+  margin: 20px;
+  text-align: center;
+}
+
+.admission p {
+  text-align: left;
+  padding: 10px;
+}
+
+.shop {
+  background: #db7fb1;
+  margin: 20px;
+  text-align: center;
+}
+
+.shop p {
+  text-align: left;
+  padding: 10px;
+}
