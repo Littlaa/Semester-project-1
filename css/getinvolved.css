@@ -1,4 +1,5 @@
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -8,19 +9,66 @@ p {
 }
 
 .get {
-  text-align: center;
   background: #36868f;
   margin: 20px;
 }
 
 .volunteer {
-  text-align: center;
   background: #dbcb53;
   margin: 20px;
 }
 
 .intern {
-  text-align: center;
   background: #69d0db;
   margin: 20px;
+}
+
+form {
+  margin: 20px;
+  padding: 10px;
+}
+
+form p {
+  padding: 0px;
+}
+
+.cta_send {
+  background-color: #dbcb53;
+  border-color: #8f853d;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px 40px;
+  margin: 20px;
+}
+
+input,
+textarea {
+  border: #707070;
+  border-radius: 10px;
+  margin: 1px 10px 10px 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea {
+  height: 65%;
+  min-height: 100px;
+}
+
+.form_contact {
+  padding: 20px;
+}
+
+#send,
+.send {
+  display: none;
+}
+
+.send {
+  background: #8f853d;
+  margin: 20px;
+}
+
+#send:checked ~ .send {
+  display: block;
 }
