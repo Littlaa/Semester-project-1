@@ -81,6 +81,11 @@ a {
   padding: 5px 24px;
 }
 
+.top {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 footer {
   padding: 10px;
 }
