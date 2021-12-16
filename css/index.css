@@ -21,13 +21,8 @@
   list-style: none;
 }
 
-.img_lab {
-  width: 100%;
-}
-
-.img_moon {
-  width: 100%;
-}
+.img_lab,
+.img_moon,
 .img_last {
   width: 100%;
 }

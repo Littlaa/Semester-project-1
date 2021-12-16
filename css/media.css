@@ -6,6 +6,84 @@
   .welcome p {
     text-align: center;
   }
+
+  .cta_explore:hover {
+    background-color: #fff;
+    border: #36868f;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .cta_exhibitions:hover {
+    background-color: #fff;
+    border: #db7fb1;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .cta_events:hover {
+    background-color: #fff;
+    border: #69d0db;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .cta_visit:hover {
+    background-color: #fff;
+    border: #dbcb53;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .cta_getinvolved:hover {
+    background-color: #fff;
+    border: #8f853d;
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+
+@media (min-width: 605px) {
+  .logo {
+    min-width: 130px;
+  }
+
+  .nav_center {
+    display: none;
+  }
+
+  .cta_getinvolved {
+    padding: 5px 15px;
+  }
+
+  .cta_events {
+    padding: 5px 20px;
+  }
+
+  .cta_exhibitions {
+    padding: 5px 10px;
+  }
+
+  .cta_explore {
+    padding: 5px 10px;
+  }
+
+  .cta_visit {
+    padding: 5px 20px;
+  }
+
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav li {
+    display: contents;
+  }
+
+  header label {
+    display: none;
+  }
 }
 
 @media (min-width: 750px) {
