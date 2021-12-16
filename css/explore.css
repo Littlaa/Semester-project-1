@@ -17,6 +17,7 @@ h1 {
 
 .for_kids {
   background-color: #69d0db;
+  filter: drop-shadow(1px -5px 0.75rem #69d0db);
 }
 
 .link a {
@@ -25,8 +26,10 @@ h1 {
 
 .for_teachers {
   background-color: #dbcb53;
+  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
 }
 
 .researchers {
   background-color: #db7fb1;
+  filter: drop-shadow(1px -5px 0.75rem #db7fb1);
 }
