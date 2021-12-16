@@ -84,6 +84,98 @@
   header label {
     display: none;
   }
+
+  .img_topex {
+    display: none;
+  }
+
+  .for_kids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "a a a"
+      "c e g"
+      "b d f";
+    gap: 15px;
+    margin: 20px;
+  }
+
+  section#a {
+    grid-area: a;
+  }
+
+  section#b {
+    grid-area: b;
+  }
+
+  section#c {
+    grid-area: c;
+  }
+  section#d {
+    grid-area: d;
+  }
+  section#e {
+    grid-area: e;
+  }
+  section#f {
+    grid-area: f;
+  }
+  section#g {
+    grid-area: g;
+  }
+
+  .for_teachers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "h h"
+      "j l"
+      "i k";
+    gap: 15px;
+    margin: 20px;
+  }
+
+  section#h {
+    grid-area: h;
+  }
+  section#i {
+    grid-area: i;
+  }
+  section#j {
+    grid-area: j;
+  }
+  section#k {
+    grid-area: k;
+  }
+  section#l {
+    grid-area: l;
+  }
+
+  .researchers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "m m"
+      "o n";
+    gap: 15px;
+    margin: 20px;
+  }
+
+  section#m {
+    grid-area: m;
+  }
+
+  section#n {
+    grid-area: n;
+  }
+
+  section#o {
+    grid-area: o;
+  }
+
+  .text_width {
+    max-width: 350px;
+  }
 }
 
 @media (min-width: 750px) {
