@@ -41,6 +41,7 @@ nav li {
 
 #hamburger_menu:checked ~ nav {
   display: block;
+  position: absolute;
 }
 
 label:hover {

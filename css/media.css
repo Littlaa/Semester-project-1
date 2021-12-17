@@ -41,6 +41,13 @@
     border-style: solid;
     border-width: 2px;
   }
+
+  .cta_send:hover {
+    background-color: #fff;
+    border: #8f853d;
+    border-style: solid;
+    border-width: 2px;
+  }
 }
 
 @media (min-width: 605px) {
@@ -246,5 +253,83 @@
   .exhibitions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "p r t"
+      "q s u";
+    gap: 15px;
+    margin: 20px;
+  }
+
+  section#p {
+    grid-area: p;
+  }
+
+  section#q {
+    grid-area: q;
+  }
+
+  section#r {
+    grid-area: r;
+  }
+
+  section#s {
+    grid-area: s;
+  }
+
+  section#t {
+    grid-area: t;
+  }
+
+  section#u {
+    grid-area: u;
+  }
+
+  .visit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+  }
+
+  .getinvolved {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "v w x"
+      "y y y"
+      "z zz zz"
+      "0 0 zx";
+  }
+
+  section#v {
+    grid-area: v;
+  }
+
+  section#w {
+    grid-area: w;
+  }
+
+  section#x {
+    grid-area: x;
+  }
+
+  section#y {
+    grid-area: y;
+  }
+
+  section#z {
+    grid-area: z;
+  }
+
+  section#zz {
+    grid-area: zz;
+  }
+
+  section#zx {
+    grid-area: zx;
   }
 }

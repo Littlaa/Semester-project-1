@@ -10,16 +10,19 @@ p {
 
 .get {
   background: #36868f;
+  filter: drop-shadow(1px -5px 0.75rem #36868f);
   margin: 20px;
 }
 
 .volunteer {
   background: #dbcb53;
+  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
   margin: 20px;
 }
 
 .intern {
   background: #69d0db;
+  filter: drop-shadow(1px -5px 0.75rem #69d0db);
   margin: 20px;
 }
 
@@ -47,7 +50,7 @@ textarea {
   border-radius: 10px;
   margin: 1px 10px 10px 0px;
   padding: 10px;
-  width: 100%;
+  width: 95%;
 }
 
 textarea {
