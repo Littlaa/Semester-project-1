@@ -14,25 +14,30 @@ p {
 
 .cosmology {
   background: #36868f;
+  filter: drop-shadow(1px -5px 0.75rem #36868f);
   margin: 20px;
 }
 
 .evolution {
   background: #dbcb53;
+  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
   margin: 20px;
 }
 
 .biology {
   background: #69d0db;
+  filter: drop-shadow(1px -5px 0.75rem #69d0db);
   margin: 20px;
 }
 
 .robotic {
   background: #db7fb1;
+  filter: drop-shadow(1px -5px 0.75rem #db7fb1);
   margin: 20px;
 }
 
 .ecology {
   background: #8f853d;
+  filter: drop-shadow(1px -5px 0.75rem #8f853d);
   margin: 20px;
 }
