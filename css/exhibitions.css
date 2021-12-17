@@ -1,3 +1,10 @@
+.cta_exhibitions {
+  background-color: #fff;
+  border: #db7fb1;
+  border-style: solid;
+  border-width: 2px;
+}
+
 h1,
 h2 {
   text-align: center;

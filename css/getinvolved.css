@@ -1,3 +1,10 @@
+.cta_getinvolved {
+  background-color: #fff;
+  border: #8f853d;
+  border-style: solid;
+  border-width: 2px;
+}
+
 h1,
 h2 {
   text-align: center;

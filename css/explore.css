@@ -1,3 +1,10 @@
+.cta_explore {
+  background-color: #fff;
+  border: #36868f;
+  border-style: solid;
+  border-width: 2px;
+}
+
 h1 {
   text-align: center;
 }
