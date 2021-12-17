@@ -1,8 +1,4 @@
 @media (min-width: 500px) {
-  .img_top {
-    max-height: 163px;
-  }
-
   .welcome p {
     text-align: center;
   }
@@ -101,27 +97,27 @@
     margin: 20px;
   }
 
-  section#a {
+  div#a {
     grid-area: a;
   }
 
-  section#b {
+  div#b {
     grid-area: b;
   }
 
-  section#c {
+  div#c {
     grid-area: c;
   }
-  section#d {
+  div#d {
     grid-area: d;
   }
-  section#e {
+  div#e {
     grid-area: e;
   }
-  section#f {
+  div#f {
     grid-area: f;
   }
-  section#g {
+  div#g {
     grid-area: g;
   }
 
@@ -136,19 +132,19 @@
     margin: 20px;
   }
 
-  section#h {
+  div#h {
     grid-area: h;
   }
-  section#i {
+  div#i {
     grid-area: i;
   }
-  section#j {
+  div#j {
     grid-area: j;
   }
-  section#k {
+  div#k {
     grid-area: k;
   }
-  section#l {
+  div#l {
     grid-area: l;
   }
 
@@ -162,15 +158,15 @@
     margin: 20px;
   }
 
-  section#m {
+  div#m {
     grid-area: m;
   }
 
-  section#n {
+  div#n {
     grid-area: n;
   }
 
-  section#o {
+  div#o {
     grid-area: o;
   }
 
@@ -259,27 +255,27 @@
     margin: 20px;
   }
 
-  section#p {
+  div#p {
     grid-area: p;
   }
 
-  section#q {
+  div#q {
     grid-area: q;
   }
 
-  section#r {
+  div#r {
     grid-area: r;
   }
 
-  section#s {
+  div#s {
     grid-area: s;
   }
 
-  section#t {
+  div#t {
     grid-area: t;
   }
 
-  section#u {
+  div#u {
     grid-area: u;
   }
 

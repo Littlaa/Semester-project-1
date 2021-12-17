@@ -1,5 +1,10 @@
 .img_top {
-  width: 100%;
+  background-image: url("../images/header_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 20vw;
+  max-height: 50vh;
 }
 
 .welcome p {
