@@ -63,20 +63,14 @@
     padding: 5px 15px;
   }
 
-  .cta_events {
-    padding: 5px 20px;
-  }
-
-  .cta_exhibitions {
-    padding: 5px 10px;
-  }
-
-  .cta_explore {
-    padding: 5px 10px;
-  }
-
+  .cta_events,
   .cta_visit {
     padding: 5px 20px;
+  }
+
+  .cta_exhibitions,
+  .cta_explore {
+    padding: 5px 10px;
   }
 
   nav {
