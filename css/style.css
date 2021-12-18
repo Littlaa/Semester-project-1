@@ -54,6 +54,10 @@ nav li {
   position: absolute;
 }
 
+.hamburger_size {
+  font-size: 2em;
+}
+
 label:hover {
   cursor: pointer;
 }
