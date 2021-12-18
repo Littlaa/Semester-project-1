@@ -71,7 +71,8 @@ p,
 a,
 label,
 input,
-textarea {
+textarea,
+li {
   font-family: "palatinoregular", "Verdana, Geneva, Tahoma, sans-serif";
 }
 

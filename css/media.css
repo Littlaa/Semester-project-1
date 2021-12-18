@@ -46,13 +46,26 @@
   }
 }
 
-@media (min-width: 605px) {
+@media (min-width: 640px) {
   .logo {
     min-width: 130px;
   }
 
   .nav_center {
     display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p,
+  li {
+    font-size: 18px;
   }
 
   .cta_getinvolved {
@@ -321,6 +334,12 @@
 
   section#zx {
     grid-area: zx;
+  }
+}
+
+@media (min-width: 1000px) {
+  .text_center {
+    margin-left: 20%;
   }
 }
 

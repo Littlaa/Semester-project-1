@@ -13,6 +13,7 @@ h2 {
 p {
   text-align: left;
   padding: 5px;
+  margin: inherit;
 }
 
 .img_width {
