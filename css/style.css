@@ -118,5 +118,13 @@ a {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 10px;
+}
+
+footer p {
+  line-height: 5px;
+  font-size: 10px;
 }
