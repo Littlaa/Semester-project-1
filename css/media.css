@@ -323,3 +323,10 @@
     grid-area: zx;
   }
 }
+
+@media (min-width: 1400px) {
+  .getinvolved {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
