@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 680px) {
   .logo {
     min-width: 130px;
   }
@@ -64,8 +64,13 @@
   }
 
   p,
-  li {
+  li,
+  label {
     font-size: 18px;
+  }
+
+  option {
+    font-size: 15px;
   }
 
   .cta_getinvolved {
@@ -189,6 +194,10 @@
 }
 
 @media (min-width: 750px) {
+  .logo {
+    max-width: 300px;
+  }
+
   .nav_index {
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
