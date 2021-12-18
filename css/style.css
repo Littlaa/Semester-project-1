@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "palatinoregular";
+  src: url("../font/pala.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "palatinobold";
+  src: url("../font/palab.ttf") format("truetype");
+}
+
 /* Layout */
 body {
   min-height: 100vh;
@@ -50,6 +60,19 @@ label:hover {
 
 main {
   background-color: #e2dfdf;
+}
+
+h1,
+p,
+a,
+label,
+input,
+textarea {
+  font-family: "palatinoregular", "Verdana, Geneva, Tahoma, sans-serif";
+}
+
+h2 {
+  font-family: "palatinobold", "Verdana, Geneva, Tahoma, sans-serif";
 }
 
 a {
