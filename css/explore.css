@@ -1,6 +1,6 @@
 .cta_explore {
   background-color: #fff;
-  border: #36868f;
+  border: var(--forest);
   border-style: solid;
   border-width: 2px;
 }
@@ -23,8 +23,8 @@ h1 {
 }
 
 .for_kids {
-  background-color: #69d0db;
-  filter: drop-shadow(1px -5px 0.75rem #69d0db);
+  background-color: var(--sky);
+  filter: drop-shadow(1px -5px 0.75rem var(--sky));
 }
 
 .link a {
@@ -32,11 +32,11 @@ h1 {
 }
 
 .for_teachers {
-  background-color: #dbcb53;
-  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
+  background-color: var(--sun);
+  filter: drop-shadow(1px -5px 0.75rem var(--sun));
 }
 
 .researchers {
-  background-color: #db7fb1;
-  filter: drop-shadow(1px -5px 0.75rem #db7fb1);
+  background-color: var(--flower);
+  filter: drop-shadow(1px -5px 0.75rem var(--flower));
 }

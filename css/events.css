@@ -1,6 +1,6 @@
 .cta_events {
   background-color: #fff;
-  border: #69d0db;
+  border: var(--sky);
   border-style: solid;
   border-width: 2px;
 }

@@ -8,21 +8,21 @@ h1 {
 
 .cta_visit {
   background-color: #fff;
-  border: #dbcb53;
+  border: var(--sun);
   border-style: solid;
   border-width: 2px;
 }
 
 .location {
-  background: #36868f;
-  filter: drop-shadow(1px -5px 0.75rem #36868f);
+  background: var(--forest);
+  filter: drop-shadow(1px -5px 0.75rem var(--forest));
   margin: 20px;
   text-align: center;
 }
 
 .hours {
-  background: #69d0db;
-  filter: drop-shadow(1px -5px 0.75rem #69d0db);
+  background: var(--sky);
+  filter: drop-shadow(1px -5px 0.75rem var(--sky));
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -34,8 +34,8 @@ h1 {
 }
 
 .access {
-  background: #8f853d;
-  filter: drop-shadow(1px -5px 0.75rem #8f853d);
+  background: var(--dirt);
+  filter: drop-shadow(1px -5px 0.75rem var(--dirt));
   margin: 20px;
   text-align: center;
 }
@@ -46,8 +46,8 @@ h1 {
 }
 
 .admission {
-  background: #dbcb53;
-  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
+  background: var(--sun);
+  filter: drop-shadow(1px -5px 0.75rem var(--sun));
   margin: 20px;
   text-align: center;
 }
@@ -58,8 +58,8 @@ h1 {
 }
 
 .shop {
-  background: #db7fb1;
-  filter: drop-shadow(1px -5px 0.75rem #db7fb1);
+  background: var(--flower);
+  filter: drop-shadow(1px -5px 0.75rem var(--flower));
   margin: 20px;
   text-align: center;
 }
@@ -70,8 +70,8 @@ h1 {
 }
 
 .food {
-  border-color: #8f853d;
-  filter: drop-shadow(1px -5px 0.75rem #8f853d);
+  border-color: var(--dirt);
+  filter: drop-shadow(1px -5px 0.75rem var(--dirt));
   border-width: 5px;
   border-style: solid;
   text-align: center;

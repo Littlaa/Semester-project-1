@@ -8,6 +8,14 @@
   src: url("../font/palab.ttf") format("truetype");
 }
 
+:root {
+  --sky: #69d0db;
+  --forest: #36868f;
+  --flower: #db7fb1;
+  --sun: #dbcb53;
+  --dirt: #8f853d;
+}
+
 /* Layout */
 body {
   min-height: 100vh;
@@ -87,27 +95,27 @@ a {
 }
 
 .cta_explore {
-  background-color: #36868f;
+  background-color: var(--forest);
   padding: 5px 40px;
 }
 
 .cta_exhibitions {
-  background-color: #db7fb1;
+  background-color: var(--flower);
   padding: 5px 29px;
 }
 
 .cta_events {
-  background-color: #69d0db;
+  background-color: var(--sky);
   padding: 5px 44px;
 }
 
 .cta_visit {
-  background-color: #dbcb53;
+  background-color: var(--sun);
   padding: 5px 50px;
 }
 
 .cta_getinvolved {
-  background-color: #8f853d;
+  background-color: var(--dirt);
   padding: 5px 24px;
 }
 

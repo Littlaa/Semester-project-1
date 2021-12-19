@@ -5,42 +5,42 @@
 
   .cta_explore:hover {
     background-color: #fff;
-    border: #36868f;
+    border: var(--forest);
     border-style: solid;
     border-width: 2px;
   }
 
   .cta_exhibitions:hover {
     background-color: #fff;
-    border: #db7fb1;
+    border: var(--flower);
     border-style: solid;
     border-width: 2px;
   }
 
   .cta_events:hover {
     background-color: #fff;
-    border: #69d0db;
+    border: var(--sky);
     border-style: solid;
     border-width: 2px;
   }
 
   .cta_visit:hover {
     background-color: #fff;
-    border: #dbcb53;
+    border: var(--sun);
     border-style: solid;
     border-width: 2px;
   }
 
   .cta_getinvolved:hover {
     background-color: #fff;
-    border: #8f853d;
+    border: var(--dirt);
     border-style: solid;
     border-width: 2px;
   }
 
   .cta_send:hover {
     background-color: #fff;
-    border: #8f853d;
+    border: var(--dirt);
     border-style: solid;
     border-width: 2px;
   }

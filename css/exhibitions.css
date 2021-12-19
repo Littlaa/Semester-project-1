@@ -1,6 +1,6 @@
 .cta_exhibitions {
   background-color: #fff;
-  border: #db7fb1;
+  border: var(--flower);
   border-style: solid;
   border-width: 2px;
 }
@@ -27,25 +27,25 @@ p {
 }
 
 .evolution {
-  background: #dbcb53;
-  filter: drop-shadow(1px -5px 0.75rem #dbcb53);
+  background: var(--sun);
+  filter: drop-shadow(1px -5px 0.75rem var(--sun));
   margin: 20px;
 }
 
 .biology {
-  background: #69d0db;
-  filter: drop-shadow(1px -5px 0.75rem #69d0db);
+  background: var(--sky);
+  filter: drop-shadow(1px -5px 0.75rem var(--sky));
   margin: 20px;
 }
 
 .robotic {
-  background: #db7fb1;
-  filter: drop-shadow(1px -5px 0.75rem #db7fb1);
+  background: var(--flower);
+  filter: drop-shadow(1px -5px 0.75rem var(--flower));
   margin: 20px;
 }
 
 .ecology {
-  background: #8f853d;
-  filter: drop-shadow(1px -5px 0.75rem #8f853d);
+  background: var(--dirt);
+  filter: drop-shadow(1px -5px 0.75rem var(--dirt));
   margin: 20px;
 }
