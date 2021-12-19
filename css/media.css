@@ -354,10 +354,6 @@
   .text_center {
     margin-left: 20%;
   }
-
-  footer {
-    justify-content: space-around;
-  }
 }
 
 @media (min-width: 1400px) {
