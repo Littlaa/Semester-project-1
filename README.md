@@ -4,7 +4,7 @@
 
 ## Description
 
-- My motivation for this project was to learn how to make a shopping website.
+- My motivation for this project was to learn how to make a website with easy-to-find information and appeal to both young and old.
 
 - I build this website so I could learn more about how to code.
 
