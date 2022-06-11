@@ -6,7 +6,7 @@
 
 - My motivation for this project was to learn how to make a website with easy-to-find information and make a design that appeals to both young and old.
 
-- I build this website so I could learn more about how to code and make the website accessible for everyone.
+- I built this website so I could learn more about how to code and make the website accessible for everyone.
 
 - On this website, you can find information about the museum and how you can contact them.
 
